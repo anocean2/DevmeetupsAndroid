@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Devmeetups</string>
+    <string name="menu_catalog">Каталог</string>
+    <string name="menu_cabinet">Личный кабинет</string>
+    <string name="menu_desired">Интересы</string>
+    <string name="menu_search">Поиск</string>
+    <string name="catalog_newest_image_ds">Изображение игры</string>
+    <string name="title_tag">Заголовок</string>
+    <string name="best_price">лучшая цена</string>
+    <string name="dlc">DLC</string>
+    <string name="price_tag">Цена</string>
+    <string name="discount">cкидка</string>
+    <string name="error_connections_db">Ошибка связи с базой данных</string>
+    <string name="all">все ></string>
+    <string name="all_newest">Все новинки</string>
+    <string name="loren_ipsum_dolor">Сначала мы проведём короткий ликбез по основам функционального стиля, где научим основным понятиям и методикам. А затем тебя ждёт два интенсивных тренинга нацеленных на бекенд и фронтенд разработку.</string>
+    <string name="title_loren_ipsum_dolor">Практикум по Elm и Elixir: полный стек на функциональных языках программирования</string>
+    <string name="stack_tech_loren_ipum_dolor">RxJava, Kotlin, Android</string>
+    <string name="type_meetups_loren_ipsum_dolor">Митап</string>
+    <string name="coneference">Конференция</string>
+    <string name="meetup">Митап</string>
+    <string name="event">Встреча</string>
+    <string name="workshop">Воркшоп</string>
+    <string name="webinar">Вебинар</string>
+    <string name="notype">Без типа</string>
+</resources>

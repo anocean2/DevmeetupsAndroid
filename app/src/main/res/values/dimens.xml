@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_radius">@dimen/_5sdp</dimen>
+    <dimen name="image_big_radius">@dimen/_15sdp</dimen>
+    <dimen name="background_radius">@dimen/_15sdp</dimen>
+    <dimen name="dlc_radius">@dimen/_12sdp</dimen>
+    <dimen name="dlc_mark_radius">@dimen/_5sdp</dimen>
+</resources>

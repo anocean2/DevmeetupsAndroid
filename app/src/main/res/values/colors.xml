@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F7F7F7</color>
+    <color name="colorPrimaryDark">#F7F7F7</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorPrimaryAlpha">#E6162440</color>
+    <color name="colorPrimaryDarkAlpha">#E6162440</color>
+    <color name="colorF5">#F5F5F5</color>
+    <color name="colorF8">#F8F8F8</color>
+    <color name="colorSplashScreen">#0064FF</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorMenuGrey">#8E8E8E</color>
+    <color name="colorItemBackground">#222F4A</color>
+    <color name="colorDlc">#0083CA</color>
+    <color name="colorSplashBackground">#F7F7F7</color>
+</resources>

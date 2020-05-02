@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:bottomLeftRadius="@dimen/dlc_mark_radius" android:bottomRightRadius="@dimen/dlc_mark_radius" android:topLeftRadius="@dimen/dlc_mark_radius" android:topRightRadius="@dimen/dlc_mark_radius" />
+            <solid android:color="@color/colorDlc" />
+        </shape>
+    </item>
+</selector>

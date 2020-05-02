@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_cataloge"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/_14sdp"
+        app:cardCornerRadius="@dimen/background_radius"
+        app:cardElevation="@dimen/_10sdp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:paddingBottom="@dimen/_18sdp">
+
+            <ImageView
+                android:id="@+id/ivEventImage"
+                android:layout_width="@dimen/_270sdp"
+                android:layout_height="@dimen/_190sdp"
+                android:adjustViewBounds="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:background="@drawable/rounded_date_event"
+                app:layout_constraintEnd_toEndOf="@+id/tvCatalogeTitle"
+                app:layout_constraintTop_toBottomOf="@+id/tvCatalogeTitle" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:src="@drawable/ic_dashboard_48px"
+                app:layout_constraintBottom_toBottomOf="@+id/tvStackTech"
+                app:layout_constraintStart_toStartOf="@+id/tvCatalogeTitle"
+                app:layout_constraintTop_toTopOf="@+id/tvStackTech" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:src="@drawable/ic_record_voice_over_48px"
+                app:layout_constraintStart_toStartOf="@+id/imageView2"
+                app:layout_constraintTop_toBottomOf="@+id/tvStackTech" />
+
+            <TextView
+                android:id="@+id/tvCatalogeDateDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:fontFamily="@font/accuratist"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView"
+                app:layout_constraintStart_toStartOf="@+id/imageView"
+                app:layout_constraintTop_toTopOf="@+id/imageView"
+                tools:text="20" />
+
+            <TextView
+                android:id="@+id/tvCatalogeDateMonthYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/accuratist"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_11ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView"
+                app:layout_constraintStart_toStartOf="@+id/imageView"
+                app:layout_constraintTop_toBottomOf="@+id/tvCatalogeDateDay"
+                tools:text="11/2020" />
+
+            <TextView
+                android:id="@+id/tvCatalogeTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_14sdp"
+                android:ellipsize="end"
+                android:fontFamily="@font/fira_sans_medium"
+                android:maxLines="2"
+                android:textSize="@dimen/_16ssp"
+                app:layout_constraintEnd_toEndOf="@+id/ivEventImage"
+                app:layout_constraintStart_toStartOf="@+id/ivEventImage"
+                app:layout_constraintTop_toBottomOf="@+id/ivEventImage"
+                tools:text="@string/title_loren_ipsum_dolor" />
+
+            <TextView
+                android:id="@+id/tvStackTech"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_16sdp"
+                android:ellipsize="end"
+                android:fontFamily="@font/fira_sans"
+                android:maxLines="1"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/imageView"
+                app:layout_constraintStart_toEndOf="@+id/imageView2"
+                app:layout_constraintTop_toBottomOf="@+id/tvCatalogeTitle"
+                tools:text="@string/stack_tech_loren_ipum_dolor" />
+
+            <TextView
+                android:id="@+id/tvTypeMeetup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/fira_sans"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintTop_toBottomOf="@+id/tvStackTech"
+                tools:text="@string/type_meetups_loren_ipsum_dolor" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>
